@@ -5,6 +5,7 @@ const App = () => {
   return (
     <PageLayout
       header={<h1>This is the header</h1>}
+      children={<h1>This is Children</h1>}
       footer={<h2>This is the footer</h2>}
     >
       <p>This is the content of the page</p>
